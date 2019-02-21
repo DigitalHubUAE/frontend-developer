@@ -7,7 +7,7 @@ For the API you can choose Python or NodeJS but need to have a GraphQL Interface
 
 ## First Challenge
 
-Create a small GraphQL API to get Products and Categories using MongoDB, please also add at least 100 dummy data in the database so we can play around. There's plenty of libraries around to generate fake data. 
+Create a small GraphQL API to get Products and Categories, please also add at least 100 dummy products in the database so we can play around. There's plenty of libraries around to generate fake data. 
 
 The product schema should be something similar like the one below.
 
@@ -30,24 +30,24 @@ Product {
 
 
 #### Considerations
-- Contain your API using Docker for Mongo and for the WebServer is a plus
+- Contain your API using Docker it's is a plus
 - One line bash command to set up the project is a plus
 - You can use the existent configuration on the internet to achieve this step
 - Automated test for the API is a Plus
 
-> Take on consideration before the creation of this step that the Challenge is going to consists in Frontend and Backend so you might want to split the repository in different folders, or having different repositories, it's completely up to you.
+> Take on consideration before the creation of this step that the Challenge is going to consists in Frontend and Backend so you might want to split the repository in different folders, but it's completely up to you to find the best solution.
 
 
 ## Second Challenge
 
-Now is time to create some frontend for our API. For this part, there is no specific requirement on technology but using React will be appreciated although Angular, Vue or others are also welcome. We don't try to overload with work so you can also go for solutions like Gatsby to speed up this step. 
+Now is time to create some frontend for our API. For this part, there is no specific requirement on technology but using React will be appreciated although Angular, Vue or others are also welcome. We don't try to overload you with work so you can also go for solutions like Gatsby to speed up this step. 
 
-As a result of this challenge, we should have a frontend with a Home Page listing all the categories.  When we click in a category we should be redirected to a landing page with all the products belonging to that category, lately, when you click in the product preview you should be redirected to the product page. 
+> As a result of this challenge, we should have a frontend with a Home Page listing all the categories.  When we click in a category we should be redirected to a landing page with all the products belonging to that category, lately, when you click in the product preview you should be redirected to the product page. 
 
 
 #### Considerations
 
-- We are not going to evaluate your design choices regarding colours and fonts, but we are going to take on considering how the overall experience is. 
+- We are not going to evaluate your design choices regarding colors and fonts, but we are going to take on considering how the overall experience is. 
 - Again, don't waste time on the design
 
 
