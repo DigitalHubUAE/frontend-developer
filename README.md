@@ -62,20 +62,9 @@ At least we should be able to
 - Cache all the static content
 
 
-#### Considerations 
-- Validate the data going in
-- Use Event and Listener to encapsulate the product creation logic. 
-- No need to update Product, just create new ones. 
-- Avoid Product duplication, SKU is a unique value
-- We are going to run lighthouse audit in all the pages so take that on consideration. 
-
-
 ## Forth Challenge
 
 Instead of waiting to have all the content before rending the page we should apply progressive loading. You can check this article about this point https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive/Loading
-
-> This step is optional and depend on how much time you expend in the other points, but it's something good to see in the final result. 
-
 
 
 ## Fifth Challenge
