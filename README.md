@@ -1,59 +1,30 @@
 # Frontend Developer Challenge
 
-As a Frontend developer, we need more than making code to create pretty pages. So this test is going to be split into several sections with a different kind of challenges. You can choose whatever framework you fancy more but besides the framework, your code should be easily identified. 
-
-For the API you can choose Python or NodeJS but need to have a GraphQL Interface. 
+As a Frontend developer, we need more than making code to create pretty pages. So this test is going to be split into several sections with a different kind of challenges. You can choose between Reactjs, AngularJs, or Vue JS to create this project. 
 
 
 ## First Challenge
 
-Create a small GraphQL API to get Products and Categories using MongoDB, please also add at least 100 dummy data in the database so we can play around. There's plenty of libraries around to generate fake data. 
+Create a free account here https://newsapi.org , news API has the news for different online newspapers, we want to connect our website with these services. 
 
-The product schema should be something similar like the one below.
+On the first challenge, we need to 
 
-```
-Product {
-  id, 
-  sku,
-  title, 
-  url,
-  abstract,
-  description,
-  price,
-  image_url, 
-  stock,
-  category,
-  created_at,
-  updated_at,
-}
-```
-
+- Create the account in https://newsapi.org
+- Create a boilerplate project 
+- Show the list of categories in the homepage
+- Show the headlines on the homepage
+- Show the news filtered by categories on a new page
 
 #### Considerations
-- Contain your API using Docker for Mongo and for the WebServer is a plus
-- One line bash command to set up the project is a plus
-- You can use the existent configuration on the internet to achieve this step
-- Automated test for the API is a Plus
-
-> Take on consideration before the creation of this step that the Challenge is going to consists in Frontend and Backend so you might want to split the repository in different folders, or having different repositories, it's completely up to you.
+- Need to be a Single Page Application
+- Need to be PWA
+- Show images
+- We are not going to evaluate your design choices regarding colours and fonts, but we are going to take on considering how the overall experience is. 
 
 
 ## Second Challenge
 
-Now is time to create some frontend for our API. For this part, there is no specific requirement on technology but using React will be appreciated although Angular, Vue or others are also welcome. We don't try to overload with work so you can also go for solutions like Gatsby to speed up this step. 
-
-As a result of this challenge, we should have a frontend with a Home Page listing all the categories.  When we click in a category we should be redirected to a landing page with all the products belonging to that category, lately, when you click in the product preview you should be redirected to the product page. 
-
-
-#### Considerations
-
-- We are not going to evaluate your design choices regarding colours and fonts, but we are going to take on considering how the overall experience is. 
-- Again, don't waste time on the design
-
-
-## Third Challenge
-
-As modern developers, we understand that PWA is a good thing to see applied in every web. In this point, we are going to apply as many good practices we can but mostly focus on offline caching the products and categories content. 
+As modern developers, we understand that PWA is the path to follow. In this point, we are going to apply as many good practices we can but mostly focus on offline content render and static content cache. 
 
 At least we should be able to 
 
@@ -62,9 +33,16 @@ At least we should be able to
 - Cache all the static content
 
 
+## Third Challenge
+
+Instead of waiting to have all the content before rending the page we should apply progressive loading. You can check this [article](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading) about this point 
+
+
 ## Forth Challenge
 
-Instead of waiting to have all the content before rending the page we should apply progressive loading. You can check this article about this point https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive/Loading
+Add at least 1 micro-interaction, you can understand a bit more about this topic in  this [article](https://uxplanet.org/creating-meaningful-micro-interactions-99cbde1fbee7)
+
+This is the creative moment of the test, you can innovate as much as you want here. 
 
 
 ## Fifth Challenge
@@ -74,13 +52,13 @@ We can use MochaJs or whatever else tool, but we need to be able to run all the 
 
 ## Lately 
 
-Document the project, how to spin up the project, **how to run the tests** and how to generate the database and the dummy content. 
+Document the project, how to spin up the project, **how to run the tests**.
 
 The README file should have all the step to set up the project locally. Remember as less command for setting up the project much better. 
 
 After you have the documentation, create a repository in GitLab/Github/Bitbucket and send us the link of the repository to pablo.morales@mailmac.net
 
-The time estimated for the project is between 2 and 8 hours if you feel that will take more you can cut corners, but that will affect the result of the test. Anyways you still have a complete week for finish the test after you received it.
+The time estimated for the project is between 1 and 5 hours if you feel that will take more you can cut corners, but that will affect the result of the test. Anyways you still have a complete week to finish the test after you received it.
 
 We are going to give you feedback as fast as possible. 
 
