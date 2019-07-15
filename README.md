@@ -1,6 +1,6 @@
 # Frontend Developer Challenge
 
-As a Frontend developer, we need more than making code to create pretty pages. So this test is going to be split into several sections with a different kind of challenges. You can choose between Reactjs, AngularJs, or Vue JS to create this project. 
+As a Frontend developer, we need more than making code to create pretty pages. So this test is going to be split into several sections with a different kind of challenges. You can choose between React, Angular, or Vue JS to create this project. 
 
 
 ## First Challenge
